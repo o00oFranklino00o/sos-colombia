@@ -28,8 +28,8 @@ use App\Http\Controllers\ImageController;
 //     return "Welcome: Magic Roses";
 // });
 
-Route::get('/home', [ UserController::class, 'index' ]);
+// Route::get('/home', [ UserController::class, 'index' ]);
 Route::post('/upload', [ ImageController::class, 'upload' ]);
 
-Route::apiResource('products', ProductController::class);
-Route::apiResource('orders', OrderController::class)->only('index', 'show');
+// Route::apiResource('products', ProductController::class);
+// Route::apiResource('orders', OrderController::class)->only('index', 'show');
